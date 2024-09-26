@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  min-height: 100vh;
+  overflow: hidden;
+  padding-top: 6rem !important; // I added this to prevent content overlapping with menu button
+  padding-bottom: 6rem;
+}
+
+// .App {
+
+// }
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  @media screen and (min-width: 1000px) and (min-height: 500px) {
+    section {
+      height: 100vh;
+      width: 100%;
+      scroll-snap-align: center;
+    }
+  }
+}

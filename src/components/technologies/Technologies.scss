@@ -1,0 +1,33 @@
+.Technologies {
+  padding: 2rem 1rem;
+  padding-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4rem;
+  text-align: center;
+  h2 {
+    margin-bottom: 1rem;
+    color: #ffa500;
+    font-size: 1.75rem;
+  }
+  .icons {
+    // background-color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    .imageContainer {
+      padding: 1rem;
+      background-color: ghostwhite;
+      border-radius: 50%;
+      img {
+        width: 5rem;
+        height: 5rem;
+      }
+    }
+  }
+}

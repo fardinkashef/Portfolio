@@ -1,0 +1,24 @@
+.MyWorks {
+  position: relative;
+  font-size: 1rem;
+
+  .progress {
+    background-color: #0c0c1ddb;
+    position: sticky;
+    top: calc(100vh - 4rem);
+    left: 0;
+    text-align: center;
+    color: orange;
+    z-index: 1;
+    .progressBar {
+      height: 10px;
+      background-color: white;
+    }
+    @media screen and (max-height: 500px) {
+      display: none;
+    }
+    @media screen and (min-width: 600px) {
+      top: 3rem;
+    }
+  }
+}
