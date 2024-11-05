@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import "./Contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { Github, Linkedin } from "lucide-react";
 
 const variants = {
   initial: {
@@ -60,6 +61,22 @@ function Contact() {
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
           <span>fardinkashef1397@gmail.com</span>
+        </motion.div>
+        <motion.div className="item links" variants={variants}>
+          <a
+            href="https://github.com/fardinkashef"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Github size={40} />
+          </a>
+          <a
+            href="https://linkedin.com/in/fardin-kashef"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Linkedin size={40} />
+          </a>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Location</h2>
