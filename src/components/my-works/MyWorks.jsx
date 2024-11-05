@@ -14,9 +14,9 @@ const items = [
   {
     id: 2,
     title: "Facial Effect Recognition Test App",
-    img: "/gifs/eftest.gif",
+    img: "/gifs/FER-test.gif",
     desc: "A React.js web application for a psychology student’s master’s thesis. The app presents participants with a range of photographs from Ekman and Friesen series of Pictures of Facial Affect (Ekman & Friesen, 1976), and their task is to identify the emotions expressed by the individuals in the photos.",
-    link: "https://eftest.onrender.com/",
+    link: "https://fer-test.vercel.app/",
   },
   {
     id: 3,
