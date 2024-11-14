@@ -18,7 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 2.5rem;
     padding: 2rem 1rem;
     text-align: center;
     h2 {
@@ -27,7 +27,7 @@
       letter-spacing: 10px;
     }
 
-    .links {
+    .internal-links {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -44,6 +44,13 @@
         cursor: pointer;
         font-weight: 300;
       }
+    }
+    .external-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem;
+      flex-wrap: wrap;
     }
   }
   @media screen and (min-width: 600px) {

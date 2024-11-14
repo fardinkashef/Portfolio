@@ -1,3 +1,4 @@
+import { Github, Linkedin } from "lucide-react";
 import "./Hero.scss";
 import { motion } from "framer-motion";
 
@@ -30,13 +31,32 @@ function Hero() {
         animate="animate"
       >
         <motion.h2 variants={textVariants}>FARDIN KASHEF</motion.h2>
-        <motion.h1 variants={textVariants}>MERN Stack Web Developer</motion.h1>
-        <motion.div variants={textVariants} className="links">
+        <motion.h1 variants={textVariants}>
+          MERN Stack & Next.js <br />
+          Web Developer
+        </motion.h1>
+        {/* <motion.div variants={textVariants} className="internal-links">
           <motion.a variants={textVariants} href="#My Projects">
             See the Latest Works
           </motion.a>
           <motion.a variants={textVariants} href="#Contact">
             Contact Me
+          </motion.a>
+        </motion.div> */}
+        <motion.div variants={textVariants} className="external-links">
+          <motion.a
+            href="https://github.com/fardinkashef"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Github size={50} />
+          </motion.a>
+          <motion.a
+            href="https://linkedin.com/in/fardin-kashef"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Linkedin size={50} />
           </motion.a>
         </motion.div>
       </motion.div>
